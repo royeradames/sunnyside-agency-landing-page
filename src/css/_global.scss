@@ -14,7 +14,12 @@ html{
     font-size: inherit;
     box-sizing: inherit;
 }
-
+h1, h2{
+    font-family: "Fraunces", serif;
+}
+p{
+    font-family: "Barlow", sans-serif;
+}
 img{
     max-width: 100%;
 }
