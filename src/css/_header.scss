@@ -29,6 +29,7 @@
         height: 1.8rem;
         color: var(--white);
         
+        
         &:hover{
             cursor: pointer;
         }
@@ -64,6 +65,8 @@
     }
 
     &__nav{
+        opacity: 0;
+        transition: .3s opacity linear;
 
         // layout base on parent
         grid-area: heading;
@@ -113,7 +116,9 @@
 
          &-open{
             z-index: 1;
+            opacity: 1;
         }
     }
 
 }
+
