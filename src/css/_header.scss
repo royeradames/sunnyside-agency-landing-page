@@ -7,18 +7,31 @@
     // layout
     display: grid;
     grid-template:
-        "logo menu-icon" 1fr
-        "heading heading" 1fr
-        / 1fr 1fr
+        "logo " min-content
+        "heading " 1fr
+        / 1fr 
     ;
 
-    &__logo{
+    &__logo-menu-icon{
         grid-area: logo;
+        display: flex;
+        justify-content: space-between;
+        padding: 3.2rem 2.4rem 8.8rem;
+    }
+
+    &__logo{
+        width: 12.364rem;
+        height: 2.4rem;
     }
 
     &__menu-icon{
-        grid-area: menu-icon;
-        justify-self: end;
+        font-size: 2.75rem;
+        height: 1.8rem;
+        color: var(--white);
+        
+        &:hover{
+            cursor: pointer;
+        }
     }
 
     &__nav{
@@ -30,6 +43,29 @@
     &__heading{
         grid-area: heading;
         justify-self: center;
+
+        // heading layout
+        display: grid;
+        grid-template:
+            1fr
+            /1fr
+        ;
+
+        &-title{
+            // h1 title
+            font-size: 4rem;
+            letter-spacing: .625rem;
+            color: var(--white);
+            text-align: center;
+        }
+        &-down-arrow{
+            // spacing
+            margin-top: 5.2rem;
+            margin-bottom: 13.652rem;
+            
+            // center self
+            justify-self: center;
+        }
     }
 
 }
