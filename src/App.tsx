@@ -12,6 +12,15 @@ import halfOrange from "./images/mobile/image-gallery-orange.jpg";
 import cone from "./images/mobile/image-gallery-cone.jpg";
 import sugar from "./images/mobile/image-gallery-sugar-cubes.jpg";
 
+// font awesome
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faTwitter,
+  faFacebookF,
+  faInstagram,
+  faPinterest,
+} from "@fortawesome/free-brands-svg-icons";
+
 function App() {
   return (
     <>
@@ -156,13 +165,28 @@ function App() {
         </nav>
         <article className="footer__social-media-links">
           <a href="#root">
-            <FontAwesomeIcon icon={faFacebookF} className="facebook" />
+            <FontAwesomeIcon
+              icon={faFacebookF}
+              className="facebook footer__facebook-icon"
+            />
           </a>
           <a href="#root">
-            <FontAwesomeIcon icon={faTwitter} className="twitter" />
+            <FontAwesomeIcon
+              icon={faTwitter}
+              className="twitter footer__twitter-icon"
+            />
           </a>
           <a href="#root">
-            <FontAwesomeIcon icon={faInstagram} className="instagram" />
+            <FontAwesomeIcon
+              icon={faInstagram}
+              className="instagram footer__instagram-icon"
+            />
+          </a>
+          <a href="#root">
+            <FontAwesomeIcon
+              icon={faPinterest}
+              className="pinterest footer__pinterest-icon"
+            />
           </a>
         </article>
       </footer>
