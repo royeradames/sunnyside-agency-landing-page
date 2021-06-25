@@ -12,6 +12,7 @@ import halfOrange from "./images/mobile/image-gallery-orange.jpg";
 import cone from "./images/mobile/image-gallery-cone.jpg";
 import sugar from "./images/mobile/image-gallery-sugar-cubes.jpg";
 import logo from "./images/logo.svg";
+import downArrow from "./images/icon-arrow-down.svg";
 
 // font awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -27,8 +28,8 @@ function App() {
   return (
     <>
       <header className="header">
-        <img src={logo} alt="Sunnyside logo" />
-        <FontAwesomeIcon icon={faBars} className="header__menu" />
+        <img src={logo} alt="Sunnyside logo" className="header__logo" />
+        <FontAwesomeIcon icon={faBars} className="header__menu-icon" />
         <nav className="header__nav">
           <a href="#root" className="header__nav-link">
             About
@@ -42,10 +43,15 @@ function App() {
           <a href="#root" className="header__nav-link">
             CONTACT
           </a>
-          <div className="header__title-background">
-            <h1 className="header__title">WE ARE CREATIVES</h1>
-          </div>
         </nav>
+        <div className="header__heading">
+          <h1 className="header__heading-title">WE ARE CREATIVES</h1>
+          <img
+            src={downArrow}
+            alt="Down arrow"
+            className="header__heading-down-arrow"
+          />
+        </div>
       </header>
       <main className="main">
         <article className="main__transform transform">
