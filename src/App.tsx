@@ -44,7 +44,7 @@ function App() {
             onClick={() => openMenu(isMenuOpen, setIsMenuOpenCount)}
           />
         </article>
-        <nav className="header__nav">
+        <nav className={`header__nav ${isMenuOpen ? "header__nav-open" : ""}`}>
           <a href="#root" className="header__nav-link">
             About
           </a>

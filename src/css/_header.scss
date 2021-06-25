@@ -38,6 +38,10 @@
         grid-area: heading;
         justify-self: center;
         z-index: -1;
+
+        &-open{
+            z-index: 1;
+        }
     }
 
     &__heading{
@@ -62,10 +66,16 @@
             // spacing
             margin-top: 5.2rem;
             margin-bottom: 13.652rem;
-            
+
             // center self
             justify-self: center;
         }
+    }
+
+    &__nav{
+        background-color: var(--white);
+        height: 30.5rem;
+        width: 32.9rem;
     }
 
 }
