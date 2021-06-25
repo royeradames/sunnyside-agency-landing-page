@@ -1,7 +1,7 @@
 .header{
     // blue orange background image
     background-image: url("../images/mobile/image-header.jpg");
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-size: cover;
 
     // layout
@@ -16,7 +16,7 @@
         grid-area: logo;
         display: flex;
         justify-content: space-between;
-        padding: 3.2rem 2.4rem 8.8rem;
+        padding: 3.2rem 2.4rem 0;
     }
 
     &__logo{
@@ -34,16 +34,6 @@
         }
     }
 
-    &__nav{
-        grid-area: heading;
-        justify-self: center;
-        z-index: -1;
-
-        &-open{
-            z-index: 1;
-        }
-    }
-
     &__heading{
         grid-area: heading;
         justify-self: center;
@@ -57,6 +47,7 @@
 
         &-title{
             // h1 title
+            margin-top: 8.8rem;
             font-size: 4rem;
             letter-spacing: .625rem;
             color: var(--white);
@@ -73,9 +64,57 @@
     }
 
     &__nav{
-        background-color: var(--white);
-        height: 30.5rem;
+
+        // layout base on parent
+        grid-area: heading;
+        justify-self: center;
+        z-index: -1;
+        margin-top: 2.6rem;
+
+        // background
         width: 32.9rem;
+        height: 32.9rem;
+        background-image: url("../images/menu-background.svg");
+        background-repeat: no-repeat;
+        // background-size: 32.9rem 32.9rem;
+
+        // layout for children
+        display: grid;
+        justify-items: center;
+        padding: 6.3rem 9.5rem 3.9rem 9.4rem;
+
+        &-link{
+            // text
+            font-family: "Barlow", sans-serif;
+            font-weight: 600;
+            font-size: 2rem;
+            line-height: 2.5rem;
+            letter-spacing: -.014rem;
+            color: var(--grayish-blue-700);
+            text-decoration: none;
+            // margin-top: 3.2rem;
+            margin-bottom: 3.2rem;
+
+            &-contact{
+                // the contact link
+                height: 5.6rem;
+                width: 14rem;
+                font-family: "Fraunces", serif;
+                font-size: 1.5rem;
+                font-weight: 700;
+                text-align: center;
+                letter-spacing: -.011rem;
+                color: var(--desaturated-blue-900);
+                background-color: var(--yellow);
+                border-radius: 2.8rem;
+                padding: 1.6rem 2.9rem 1.5rem 3.2rem;
+            }
+
+        }
+
+         &-open{
+            z-index: 1;
+        }
     }
 
 }
