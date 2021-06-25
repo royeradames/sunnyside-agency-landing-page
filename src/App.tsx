@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./css/main.scss";
 
 // images
@@ -25,11 +25,25 @@ import {
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
+  const [isMenuOpen, setIsMenuOpenCount] = useState(false);
+
+  const openMenu = (
+    isMenuOpen: boolean,
+    setIsMenuOpenCount: React.Dispatch<React.SetStateAction<boolean>>
+  ) => {
+    setIsMenuOpenCount(!isMenuOpen);
+  };
   return (
     <>
       <header className="header">
-        <img src={logo} alt="Sunnyside logo" className="header__logo" />
-        <FontAwesomeIcon icon={faBars} className="header__menu-icon" />
+        <article className="header__logo-menu-icon">
+          <img src={logo} alt="Sunnyside logo" className="header__logo" />
+          <FontAwesomeIcon
+            icon={faBars}
+            className="header__menu-icon"
+            onClick={() => openMenu(isMenuOpen, setIsMenuOpenCount)}
+          />
+        </article>
         <nav className="header__nav">
           <a href="#root" className="header__nav-link">
             About
