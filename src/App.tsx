@@ -44,7 +44,7 @@ function App() {
             onClick={() => openMenu(isMenuOpen, setIsMenuOpenCount)}
           />
         </article>
-        <nav className={`header__nav ${isMenuOpen ? "header__nav-open" : ""}`}>
+        <nav className={` ${isMenuOpen ? "header__nav-open" : ""} header__nav`}>
           <a href="#root" className="header__nav-link">
             About
           </a>
@@ -54,7 +54,7 @@ function App() {
           <a href="#root" className="header__nav-link">
             Projects
           </a>
-          <a href="#root" className="header__nav-link">
+          <a href="#root" className="header__nav-link header__nav-link-contact">
             CONTACT
           </a>
         </nav>
