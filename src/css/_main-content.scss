@@ -1,0 +1,47 @@
+.main{
+    &__text{
+        padding: 6.4rem 2.4rem;
+        text-align: center;
+    }
+    &__title{
+        font-size: 3.2rem;
+        letter-spacing: -.023rem;
+        color: var(--desaturated-blue-900);
+        font-weight: 900;
+    }
+    &__message{
+        font-size: 3rem;
+        font-size: 1.8rem;
+        line-height: 3rem;
+        letter-spacing: -.013;
+        font-weight: 600;
+
+        margin-top: 2.4rem;
+        margin-bottom: 3.2rem;
+
+        color: var(--grayish-blue-700);
+    }
+    &__learn-more{
+        text-decoration: none;
+        font-weight: 900;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        letter-spacing: .1rem;
+        color: var(--desaturated-blue-900);
+        font-family: "Fraunces", serif;
+
+        &::after{
+            // custom underline
+            content: "";
+            width: 13.7rem;
+            height: 1rem;
+            display: block;
+            position: relative;
+            bottom: 1rem;
+            left: 9.5rem;
+            z-index: -1;
+            opacity: 25%;
+            border-radius: 2.8rem;
+        }
+    }
+}
