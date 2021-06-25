@@ -70,7 +70,7 @@ function App() {
       <main className="main">
         <article className="main__transform transform">
           <img src={egg} alt="White egg on yellow background" />
-          <div className="transform__text">
+          <div className="main__text transform__text">
             <h2 className="main__title transform__title">
               Transform your brand
             </h2>
@@ -87,7 +87,7 @@ function App() {
 
         <article className="main__stand-out stand-out">
           <img src={redCup} alt="Red cup on orange background" />
-          <div className="stand-out__text">
+          <div className="main__text stand-out__text">
             <h2 className="stand-out__title main__title">
               Stand out to the right audience
             </h2>
