@@ -11,6 +11,7 @@ import milk from "./images/mobile/image-gallery-milkbottles.jpg";
 import halfOrange from "./images/mobile/image-gallery-orange.jpg";
 import cone from "./images/mobile/image-gallery-cone.jpg";
 import sugar from "./images/mobile/image-gallery-sugar-cubes.jpg";
+import logo from "./images/logo.svg";
 
 // font awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -20,11 +21,14 @@ import {
   faInstagram,
   faPinterest,
 } from "@fortawesome/free-brands-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
   return (
     <>
       <header className="header">
+        <img src={logo} alt="Sunnyside logo" />
+        <FontAwesomeIcon icon={faBars} className="header__menu" />
         <nav className="header__nav">
           <a href="#root" className="header__nav-link">
             About
