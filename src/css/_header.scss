@@ -4,5 +4,32 @@
     background-repeat: none;
     background-size: cover;
 
-    
+    // layout
+    display: grid;
+    grid-template:
+        "logo menu-icon" 1fr
+        "heading heading" 1fr
+        / 1fr 1fr
+    ;
+
+    &__logo{
+        grid-area: logo;
+    }
+
+    &__menu-icon{
+        grid-area: menu-icon;
+        justify-self: end;
+    }
+
+    &__nav{
+        grid-area: heading;
+        justify-self: center;
+        z-index: -1;
+    }
+
+    &__heading{
+        grid-area: heading;
+        justify-self: center;
+    }
+
 }
