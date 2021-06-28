@@ -108,24 +108,35 @@ function App() {
           </div>
         </article>
 
-        <article className="main__graphic-design graphic-design">
-          <h2 className="graphic-design__title main__title">Graphic Design</h2>
-          <p className="main__message graphic-design__message">
-            Great design makes you memorable. We deliver artwork that
-            underscores your brand message and captures potential clients’
-            attention.
-          </p>
+        <article className="main__graphic-design-photography main__graphic-design ">
+          <div className="main__graphic-design-photography-text">
+            <h2 className="main__graphic-design-photography-title main__graphic-design-title">
+              Graphic Design
+            </h2>
+            <p className="main__message  main__graphic-design-message main__graphic-design-photography-message">
+              Great design makes you memorable. We deliver artwork that
+              underscores your brand message and captures potential clients’
+              attention.
+            </p>
+          </div>
         </article>
-        <article className="main__photography photography">
-          <h2 className="main__title photography__title">Photography</h2>
-          <p className="main__message photography__message">
-            Increase your credibility by getting the most stunning, high-quality
-            photos that improve your business image.
-          </p>
+        <article className="main__photography main__graphic-design-photography">
+          <div className="main__graphic-design-photography-text">
+            <h2 className="main__title main__graphic-design-photography-title main__photography-title">
+              Photography
+            </h2>
+            <p
+              className="main__message  main__graphic-design-photography-message
+            main__photography-message"
+            >
+              Increase your credibility by getting the most stunning,
+              high-quality photos that improve your business image.
+            </p>
+          </div>
         </article>
 
         <article className="testimonials main__testimonials">
-          <h2 className="testimonials__title main__testimonials">
+          <h2 className="testimonials__title main__testimonials main__testimonials-title">
             CLIENT TESTIMONIALS
           </h2>
           <article className="testimonials__individual-testimonial">
