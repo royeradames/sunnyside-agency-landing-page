@@ -79,7 +79,10 @@ function App() {
               brands grow fast. Engage your clients through compelling visuals
               that do most of the marketing for you.
             </p>
-            <a href="#root" className="transform__learn-more main__learn-more">
+            <a
+              href="#root"
+              className="transform__learn-more main__learn-more main__learn-more-transform"
+            >
               LEARN MORE
             </a>
           </div>
@@ -96,7 +99,10 @@ function App() {
               photographers, videographers, and copywriters, we'll build and
               extend your brand in digital places.
             </p>
-            <a href="#root" className="stand-out__learn-more main__learn-more">
+            <a
+              href="#root"
+              className="stand-out__learn-more main__learn-more main__learn-more-stand-out"
+            >
               LEARN MORE
             </a>
           </div>
