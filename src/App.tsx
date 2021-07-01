@@ -216,9 +216,15 @@ function App() {
           />
         </svg>
         <nav className="footer__nav">
-          <a href="#root">About</a>
-          <a href="#root">Services</a>
-          <a href="#root">Projects</a>
+          <a href="#root" className="footer__nav-link">
+            About
+          </a>
+          <a href="#root" className="footer__nav-link">
+            Services
+          </a>
+          <a href="#root" className="footer__nav-link">
+            Projects
+          </a>
         </nav>
         <article className="footer__social-media-links">
           <a href="#root">
