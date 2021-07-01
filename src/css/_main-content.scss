@@ -124,5 +124,12 @@
             color: var(--grayish-blue-400);
         }
 
+        &-img{
+            // round off the images
+            border-radius: 50%;
+            height: 7.2rem;
+            width: 7.2rem;
+        }
+
     }
 }
