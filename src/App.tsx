@@ -153,7 +153,7 @@ function App() {
             <h3 className="individual-testimonial__name main__testimonials-name">
               Emily R.
             </h3>
-            <h4 className="individual-testimonial__profession main__testimonials-prefession">
+            <h4 className="individual-testimonial__profession main__testimonials-profession">
               Marketing Director
             </h4>
           </article>
@@ -171,7 +171,7 @@ function App() {
             <h3 className="individual-testimonial__name main__testimonials-name">
               Thomas S.
             </h3>
-            <h4 className="individual-testimonial__profession main__testimonials-prefession">
+            <h4 className="individual-testimonial__profession main__testimonials-profession">
               Chief Operating Office
             </h4>
           </article>
@@ -189,7 +189,7 @@ function App() {
             <h3 className="individual-testimonial__name main__testimonials-name">
               Jennie F.
             </h3>
-            <h4 className="individual-testimonial__profession main__testimonials-prefession">
+            <h4 className="individual-testimonial__profession main__testimonials-profession">
               Business Owner
             </h4>
           </article>
