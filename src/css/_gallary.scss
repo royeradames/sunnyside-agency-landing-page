@@ -1,0 +1,21 @@
+.gallery{
+    display: grid;
+    grid-template:
+        "milk half-orange" 1fr
+        "cone sugar" 1fr
+        / 1fr 1fr
+    ;
+
+    &__milk{
+        grid-area: milk;
+    }
+    &__orange{
+        grid-area: half-orange;
+    }
+    &__cone{
+        grid-area: cone;
+    }
+    &__sugar{
+        grid-area: sugar;
+    }
+}
