@@ -1,5 +1,5 @@
 .footer{
-    background-color: var(--moderate-cyan-700);
+    background-color: #90D4C6;
     padding: 6.4rem 3.9rem 8rem;
     text-align: center;
 
@@ -7,5 +7,20 @@
         fill: var(--desaturated-cyan-700);
     }
 
-    
+    &__nav{
+        // layout
+        display: flex;
+        justify-content: space-between;
+        margin: 4rem 0 8.8rem 0;
+        &-link{
+            // text
+            font-size: 1.8rem;
+            font-weight: 600;
+            line-height: 2.5rem;
+            letter-spacing: -.013rem;
+            color: #458D7E;
+            text-decoration: none;
+        }
+        
+    }
 }
