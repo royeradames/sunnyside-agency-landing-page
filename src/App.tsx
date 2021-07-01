@@ -189,17 +189,17 @@ function App() {
             <h3 className="individual-testimonial__name main__testimonials-name">
               Jennie F.
             </h3>
-            <h4 className="individual-testimonial__profession main__testimonials-profession">
+            <h4 className="individual-testimonial__profession main__testimonials-profession main__testimonials-profession--last">
               Business Owner
             </h4>
           </article>
         </article>
 
-        <article className="gallery main__gallery">
-          <img src={milk} alt="Milk bottles" />
-          <img src={halfOrange} alt="Orange" />
-          <img src={cone} alt="Ice cream cone" />
-          <img src={sugar} alt="Sugar cubes" />
+        <article className="gallery">
+          <img src={milk} alt="Milk bottles" className="gallery__milk" />
+          <img src={halfOrange} alt="Orange" className="gallery__orange" />
+          <img src={cone} alt="Ice cream cone" className="gallery__cone" />
+          <img src={sugar} alt="Sugar cubes" className="gallery__sugar" />
         </article>
       </main>
 
