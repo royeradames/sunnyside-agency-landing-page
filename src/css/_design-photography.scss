@@ -11,17 +11,17 @@
     align-items: end;
     
 
-    &-text{
+    &__text{
         height: 14.3rem;
         width: 32.7rem;
         margin-bottom: 6rem;
     }
-    &-title{
+    &__title{
         font-size: 2.8rem;
         font-weight: 100;
         letter-spacing: -.02rem;
     }
-    &-message{
+    &__message{
         font-size: 1.6rem;
         line-height: 2.7rem;
         font-weight: 600;
@@ -35,10 +35,10 @@
     
     background-image: url("../images/mobile/image-graphic-design.jpg");
 
-    &-title{
+    &__title{
         color: var(--desaturated-cyan-700);
     }
-    &-message{
+    &__message{
         color: var(--desaturated-cyan-700);
     }
 }
@@ -47,10 +47,10 @@
     background-image: url("../images/desktop/image-photography.jpg");
     background-position: center;
 
-    &-title{
+    &__title{
         color: var(--blue-700);
     }
-    &-message{
+    &__message{
         color: var(--blue-700);
     }
 }
