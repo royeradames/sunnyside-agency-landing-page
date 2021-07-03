@@ -24,6 +24,11 @@
             letter-spacing: -.013rem;
             color: #458D7E;
             text-decoration: none;
+
+            &:hover{
+                // change color to white
+                color: white;
+            }
         }
         
     }
