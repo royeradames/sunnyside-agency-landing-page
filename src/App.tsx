@@ -226,29 +226,29 @@ function App() {
             Projects
           </a>
         </nav>
-        <article className="footer__social-media-links">
-          <a href="#root">
+        <article className="footer__social-media">
+          <a href="#root" className="footer__social-media-links">
             <FontAwesomeIcon
               icon={faFacebookF}
-              className="facebook footer__facebook-icon"
+              className="facebook footer__facebook-icon footer__social-media-links"
             />
           </a>
           <a href="#root">
             <FontAwesomeIcon
               icon={faTwitter}
-              className="twitter footer__twitter-icon"
+              className="twitter footer__twitter-icon footer__social-media-links"
             />
           </a>
           <a href="#root">
             <FontAwesomeIcon
               icon={faInstagram}
-              className="instagram footer__instagram-icon"
+              className="instagram footer__instagram-icon footer__social-media-links"
             />
           </a>
           <a href="#root">
             <FontAwesomeIcon
               icon={faPinterest}
-              className="pinterest footer__pinterest-icon"
+              className="pinterest footer__pinterest-icon footer__social-media-links"
             />
           </a>
         </article>
