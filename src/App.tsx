@@ -67,41 +67,39 @@ function App() {
           />
         </div>
       </header>
-      <main className="main">
-        <article className="main__transform transform">
+      <main>
+        <article className="transform-stand-out">
           <img src={egg} alt="White egg on yellow background" />
-          <div className="main__text transform__text">
-            <h2 className="main__title transform__title">
-              Transform your brand
-            </h2>
-            <p className="main__message transform__message">
+          <div className="transform-stand-out__text">
+            <h2 className="transform-stand-out__title">Transform your brand</h2>
+            <p className="transform-stand-out__message">
               We are a full-service creative agency specializing in helping
               brands grow fast. Engage your clients through compelling visuals
               that do most of the marketing for you.
             </p>
             <a
               href="#root"
-              className="transform__learn-more main__learn-more main__learn-more-transform"
+              className="transform-stand-out__learn-more transform-stand-out__learn-more-transform"
             >
               LEARN MORE
             </a>
           </div>
         </article>
 
-        <article className="main__stand-out stand-out">
+        <article className="transform-stand-out">
           <img src={redCup} alt="Red cup on orange background" />
-          <div className="main__text stand-out__text">
-            <h2 className="stand-out__title main__title">
+          <div className="transform-stand-out__text">
+            <h2 className="transform-stand-out__title">
               Stand out to the right audience
             </h2>
-            <p className="stand-out__message main__message">
+            <p className="transform-stand-out__message">
               Using a collaborative formula of designers, researchers,
               photographers, videographers, and copywriters, we'll build and
               extend your brand in digital places.
             </p>
             <a
               href="#root"
-              className="stand-out__learn-more main__learn-more main__learn-more-stand-out"
+              className="transform-stand-out__learn-more transform-stand-out__learn-more-stand-out"
             >
               LEARN MORE
             </a>
