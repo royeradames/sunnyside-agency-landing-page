@@ -71,9 +71,12 @@
 
         // layout base on parent
         grid-area: heading;
-        justify-self: center;
         z-index: -1;
         margin-top: 2.6rem;
+
+        // move menu bellow the nav bar
+        justify-self: end;
+        margin-right: 2.4rem;
 
         // background
         width: 32.9rem;
