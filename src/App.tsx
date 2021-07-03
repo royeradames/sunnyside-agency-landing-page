@@ -108,26 +108,26 @@ function App() {
           </div>
         </article>
 
-        <article className="main__graphic-design-photography main__graphic-design ">
-          <div className="main__graphic-design-photography-text">
-            <h2 className="main__graphic-design-photography-title main__graphic-design-title">
+        <article className="graphic-design-photography graphic-design ">
+          <div className="graphic-design-photography__text">
+            <h2 className="graphic-design-photography__title graphic-design__title">
               Graphic Design
             </h2>
-            <p className="main__message  main__graphic-design-message main__graphic-design-photography-message">
+            <p className="graphic-design__message graphic-design-photography__message">
               Great design makes you memorable. We deliver artwork that
               underscores your brand message and captures potential clients’
               attention.
             </p>
           </div>
         </article>
-        <article className="main__photography main__graphic-design-photography">
-          <div className="main__graphic-design-photography-text">
-            <h2 className="main__title main__graphic-design-photography-title main__photography-title">
+        <article className="graphic-design-photography photography">
+          <div className="graphic-design-photography__text">
+            <h2 className="graphic-design-photography__title photography__title">
               Photography
             </h2>
             <p
-              className="main__message  main__graphic-design-photography-message
-            main__photography-message"
+              className="graphic-design-photography__message
+            photography__message"
             >
               Increase your credibility by getting the most stunning,
               high-quality photos that improve your business image.

@@ -1,0 +1,56 @@
+// graphic and photography section
+.graphic-design-photography{
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60rem;
+    width: 37.5rem;
+
+    display: grid;
+    justify-items: center;
+    align-items: end;
+    
+
+    &-text{
+        height: 14.3rem;
+        width: 32.7rem;
+        margin-bottom: 6rem;
+    }
+    &-title{
+        font-size: 2.8rem;
+        font-weight: 100;
+        letter-spacing: -.02rem;
+    }
+    &-message{
+        font-size: 1.6rem;
+        line-height: 2.7rem;
+        font-weight: 600;
+        letter-spacing: -.011rem;
+        margin-top: 2.4rem;
+        margin-bottom: 3.2rem;
+    }
+}
+
+.graphic-design{
+    
+    background-image: url("../images/mobile/image-graphic-design.jpg");
+
+    &-title{
+        color: var(--desaturated-cyan-700);
+    }
+    &-message{
+        color: var(--desaturated-cyan-700);
+    }
+}
+
+.photography{
+    background-image: url("../images/desktop/image-photography.jpg");
+    background-position: center;
+
+    &-title{
+        color: var(--blue-700);
+    }
+    &-message{
+        color: var(--blue-700);
+    }
+}
