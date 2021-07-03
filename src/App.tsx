@@ -135,61 +135,49 @@ function App() {
           </div>
         </article>
 
-        <article className="testimonials main__testimonials">
-          <h2 className="testimonials__title main__testimonials main__testimonials-title">
-            CLIENT TESTIMONIALS
-          </h2>
-          <article className="testimonials__individual-testimonial main__testimonials-individual-testimonial">
+        <article className="testimonials ">
+          <h2 className="testimonials__title">CLIENT TESTIMONIALS</h2>
+          <article>
             <img
               src={emily}
               alt="Emily R. portrage"
-              className="individual-testimonial__img main__testimonials-img"
+              className="testimonials__img"
             />
-            <p className="individual-testimonial__message main__testimonials-message">
+            <p className="testimonials__message">
               We put our trust in Sunnyside and they delivered, making sure our
               needs were met and deadlines were always hit.
             </p>
 
-            <h3 className="individual-testimonial__name main__testimonials-name">
-              Emily R.
-            </h3>
-            <h4 className="individual-testimonial__profession main__testimonials-profession">
-              Marketing Director
-            </h4>
+            <h3 className="testimonials__name">Emily R.</h3>
+            <h4 className="testimonials__profession">Marketing Director</h4>
           </article>
-          <article className="testimonials__individual-testimonial main__testimonials-individual-testimonial">
+          <article>
             <img
               src={thomas}
               alt="Thomas S. portrage"
-              className="individual-testimonial__img main__testimonials-img"
+              className="testimonials__img"
             />
-            <p className="individual-testimonial__message main__testimonials-message">
+            <p className="testimonials__message">
               Sunnyside’s enthusiasm coupled with their keen interest in our
               brand’s success made it a satisfying and enjoyable experience.
             </p>
 
-            <h3 className="individual-testimonial__name main__testimonials-name">
-              Thomas S.
-            </h3>
-            <h4 className="individual-testimonial__profession main__testimonials-profession">
-              Chief Operating Office
-            </h4>
+            <h3 className="testimonials__name">Thomas S.</h3>
+            <h4 className="testimonials__profession">Chief Operating Office</h4>
           </article>
-          <article className="testimonials__individual-testimonial main__testimonials-individual-testimonial">
+          <article>
             <img
               src={jennie}
               alt="Jennie F. portrage"
-              className="individual-testimonial__img main__testimonials-img"
+              className="testimonials__img"
             />
-            <p className="individual-testimonial__message main__testimonials-message">
+            <p className="testimonials__message">
               Incredible end result! Our sales increased over 400% when we
               worked with Sunnyside. Highly recommended!
             </p>
 
-            <h3 className="individual-testimonial__name main__testimonials-name">
-              Jennie F.
-            </h3>
-            <h4 className="individual-testimonial__profession main__testimonials-profession main__testimonials-profession--last">
+            <h3 className="testimonials__name">Jennie F.</h3>
+            <h4 className="testimonials__profession testimonials__profession--last">
               Business Owner
             </h4>
           </article>
