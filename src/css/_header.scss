@@ -37,6 +37,10 @@ $bg: 1050px;
         height: 1.8rem;
         color: var(--white);
         
+        @media(min-width: $bg){
+            // hide menu icon
+            display: none;
+        }
         
         &:hover{
             cursor: pointer;
