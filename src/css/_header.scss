@@ -85,11 +85,7 @@ $bg: 1050px;
         grid-area: heading;
         z-index: -1;
         margin-top: 2.6rem;
-        @media(min-width: $bg){
-            // always show the menu
-            z-index: initial;
-            opacity: 1;
-        }
+        
         // move menu bellow the nav bar
         justify-self: end;
         margin-right: 2.4rem;
@@ -104,6 +100,15 @@ $bg: 1050px;
         display: grid;
         justify-items: center;
         padding: 6.3rem 9.5rem 3.9rem 9.4rem;
+
+        @media(min-width: $bg){
+            // always show the menu
+            z-index: initial;
+            opacity: 1;
+
+            // remove background image
+            background-image: none;
+        }
 
         &-link{
             // text
