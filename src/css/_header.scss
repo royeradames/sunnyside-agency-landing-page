@@ -85,7 +85,11 @@ $bg: 1050px;
         grid-area: heading;
         z-index: -1;
         margin-top: 2.6rem;
-
+        @media(min-width: $bg){
+            // always show the menu
+            z-index: initial;
+            opacity: 1;
+        }
         // move menu bellow the nav bar
         justify-self: end;
         margin-right: 2.4rem;
