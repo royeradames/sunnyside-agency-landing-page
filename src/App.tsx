@@ -68,9 +68,13 @@ function App() {
         </div>
       </header>
       <main>
-        <article className="transform-stand-out">
-          <img src={egg} alt="White egg on yellow background" />
-          <div className="transform-stand-out__text">
+        <article className="transform-stand-out transform">
+          <img
+            src={egg}
+            alt="White egg on yellow background"
+            className="transform-stand-out__img transform__img"
+          />
+          <div className="transform-stand-out__text transform__text">
             <h2 className="transform-stand-out__title">Transform your brand</h2>
             <p className="transform-stand-out__message">
               We are a full-service creative agency specializing in helping
@@ -86,9 +90,13 @@ function App() {
           </div>
         </article>
 
-        <article className="transform-stand-out">
-          <img src={redCup} alt="Red cup on orange background" />
-          <div className="transform-stand-out__text">
+        <article className="transform-stand-out stand-out">
+          <img
+            src={redCup}
+            alt="Red cup on orange background"
+            className="transform-stand-out__img stand-out__img"
+          />
+          <div className="transform-stand-out__text stand-out__text">
             <h2 className="transform-stand-out__title">
               Stand out to the right audience
             </h2>
