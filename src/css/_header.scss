@@ -108,6 +108,11 @@ $bg: 1050px;
 
             // remove background image
             background-image: none;
+
+            // move menu links to logo area
+            grid-area: logo;
+
+            // move links side to side
         }
 
         &-link{
