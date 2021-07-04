@@ -112,7 +112,15 @@ $bg: 1050px;
             // move menu links to logo area
             grid-area: logo;
 
-            
+            // move links side to side
+            display: flex;
+            justify-content: space-between;
+            height: initial;
+            width: initial;
+            padding: initial;
+
+            // center text
+            align-items: center;
         }
 
         &-link{
@@ -129,6 +137,12 @@ $bg: 1050px;
             @media(min-width: $bg){
                 // change color to white
                 color: white;
+
+                // center text
+                justify-self: center;
+
+                // remove marging bottom
+                margin: initial;
             }
 
             &-contact{
@@ -144,6 +158,8 @@ $bg: 1050px;
                 background-color: var(--yellow);
                 border-radius: 2.8rem;
                 padding: 1.6rem 2.9rem 1.5rem 3.2rem;
+
+                
             }
 
         }
