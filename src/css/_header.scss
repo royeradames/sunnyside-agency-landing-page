@@ -1,3 +1,5 @@
+$bg: 1050px;
+
 .header{
     // blue orange background image
     background-image: url("../images/mobile/image-header.jpg");
@@ -22,6 +24,12 @@
     &__logo{
         width: 12.364rem;
         height: 2.4rem;
+
+        @media(min-width: $bg){
+            // increase logo size
+            width: 17rem;
+            height: 3.3rem;
+        }
     }
 
     &__menu-icon{
