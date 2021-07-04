@@ -38,10 +38,14 @@
             display: block;
             position: relative;
             bottom: 1rem;
-            left: 9.5rem;
+            left: -.3rem;
             z-index: -1;
             opacity: 25%;
             border-radius: 2.8rem;
+
+            // center the div
+            margin: auto;
+
         }
         // custom underline color  
         &-transform{
