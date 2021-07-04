@@ -14,6 +14,12 @@ $bg: 1050px;
         / 1fr 
     ;
 
+    @media(min-width: $bg){
+        // update background and cover all view port
+        background-image: url("../images/desktop/image-header.jpg");
+        height: 100vh;
+    }
+
     &__logo-menu-icon{
         grid-area: logo;
         display: flex;
@@ -58,6 +64,10 @@ $bg: 1050px;
             /1fr
         ;
 
+        @media(min-width:$bg){
+            // reduce arrow spacing
+            grid-template: initial;
+        }
         &-title{
             // h1 title
             margin-top: 8.8rem;
