@@ -1,4 +1,9 @@
+$bg: 1050px;
+
 .transform-stand-out{
+    display: grid;
+    
+    
     &__text{
         padding: 6.4rem 2.4rem;
         text-align: center;
@@ -61,4 +66,35 @@
         }
     }
 
+}
+
+// space out into 4x4 grid
+.transform{
+
+    @media(min-width: $bg){
+        grid-template:
+            "transform-text transform-img" 1fr
+            / 1fr 1fr
+        ;
+    }
+    &__img{
+        grid-area: transform-img;
+    }
+    &__text{
+        grid-area: transform-text;
+    }
+}
+.stand-out{
+    @media(min-width: $bg){
+        grid-template:
+            "stand-out-img stand-out-text" 1fr
+            / 1fr 1fr
+        ;
+    }
+    &__img{
+        grid-area: stand-out-img;
+    }
+    &__text{
+        grid-area: stand-out-text;
+    }
 }
