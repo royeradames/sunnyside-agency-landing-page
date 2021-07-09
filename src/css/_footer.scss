@@ -1,10 +1,16 @@
+$bg: 1050px;
+
 .footer{
     background-color: #90D4C6;
-    padding: 6.4rem 3.9rem 8rem;
+    padding: 6.4rem 0;
     text-align: center;
 
     // layout
     display: grid;
+
+    @media(min-width: $bg){
+        padding: 7.2rem 0;
+    }
 
     &__logo{
         fill: var(--desaturated-cyan-700);
@@ -12,6 +18,9 @@
     }
 
     &__nav{
+        width: 30rem;
+        justify-self: center;
+
         // layout
         display: flex;
         justify-content: space-between;
@@ -47,9 +56,12 @@
             height: 2rem;
             font-size: 2.2rem;
             color: #458D7E;
+            fill: #458D7E;
+            
 
             &:hover{
                 color: white;
+                fill: white;
             }
         }
     }

@@ -30,6 +30,7 @@ $bg: 1050px;
     &__logo{
         width: 12.364rem;
         height: 2.4rem;
+        fill: white;
 
         @media(min-width: $bg){
             // increase logo size
