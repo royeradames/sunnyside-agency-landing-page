@@ -47,8 +47,12 @@ $bg: 1050px;
     background-image: url("../images/mobile/image-graphic-design.jpg");
     
     grid-area: graphic-design;
-    
 
+    @media(min-width: $bg){
+        // insert larger image and show the center
+        background-image: url("../images/desktop/image-graphic-design.jpg");
+        background-position: center;
+    }
     &__title{
         color: var(--desaturated-cyan-700);
     }
