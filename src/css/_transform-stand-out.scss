@@ -7,11 +7,7 @@ $bg: 1050px;
     &__text{
         padding: 6.4rem 2.4rem;
         text-align: center;
-        @media(min-width: $bg){
-            // increase white space and move text to the left
-            padding: 15.8rem 11rem 15.7rem 16.5rem ;
-            text-align: left;
-        }
+        
     }
     &__title{
         font-size: 3.2rem;
@@ -97,6 +93,12 @@ $bg: 1050px;
     }
     &__text{
         grid-area: transform-text;
+
+        @media(min-width: $bg){
+            // increase white space and move text to the left
+            padding: 15.8rem 11rem 15.7rem 16.5rem ;
+            text-align: left;
+        }
     }
 }
 .stand-out{
@@ -111,5 +113,11 @@ $bg: 1050px;
     }
     &__text{
         grid-area: stand-out-text;
+
+        @media(min-width: $bg){
+            // increase white space and move text to the left
+            padding: 15.8rem 16.5rem 15.7rem 11rem   ;
+            text-align: left;
+        }
     }
 }
