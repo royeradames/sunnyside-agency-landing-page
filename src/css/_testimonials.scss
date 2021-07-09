@@ -1,7 +1,20 @@
+$bg: 1050px;
+
 // testinomials section
 .testimonials{
     margin: 6.4rem 2.4rem 8.6rem;
     text-align: center;
+
+    @media(min-width: $bg){
+        // move individuals testimonials side by side
+        display: grid;
+        grid-template:
+            "title title title" min-content
+            "left middle right" 1fr
+            / 1fr 1fr 1fr
+        ;
+        column-gap: 3rem;
+    }
 
     &__title{
         font-size: 1.6rem;
@@ -9,6 +22,9 @@
         letter-spacing: .4rem;
         color: var(--grayish-blue-400);
         margin-bottom: 6.4rem;
+        
+        // desktop layout
+        grid-area: title;
     }
 
     &__img{
