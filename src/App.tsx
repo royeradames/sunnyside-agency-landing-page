@@ -246,24 +246,12 @@ function App() {
             <FacebookIcon className="facebook footer__facebook-icon footer__social-media-links" />
           </a>
           <a href="#root">
-            {/* <FontAwesomeIcon
-              icon={faTwitter}
-              className="twitter footer__twitter-icon footer__social-media-links"
-            /> */}
             <Twitter className="twitter footer__twitter-icon footer__social-media-links" />
           </a>
           <a href="#root">
-            {/* <FontAwesomeIcon
-              icon={faInstagram}
-              className="instagram footer__instagram-icon footer__social-media-links"
-            /> */}
             <Instagram className="instagram footer__instagram-icon footer__social-media-links" />
           </a>
           <a href="#root">
-            {/* <FontAwesomeIcon
-              icon={faPinterest}
-              className="pinterest footer__pinterest-icon footer__social-media-links"
-            /> */}
             <Pinterest className="pinterest footer__pinterest-icon footer__social-media-links" />
           </a>
         </article>
