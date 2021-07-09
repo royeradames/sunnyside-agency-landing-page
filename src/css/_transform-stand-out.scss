@@ -7,6 +7,11 @@ $bg: 1050px;
     &__text{
         padding: 6.4rem 2.4rem;
         text-align: center;
+        @media(min-width: $bg){
+            // increase white space and move text to the left
+            padding: 15.8rem 11rem 15.7rem 16.5rem ;
+            text-align: left;
+        }
     }
     &__title{
         font-size: 3.2rem;
@@ -51,6 +56,10 @@ $bg: 1050px;
             // center the div
             margin: auto;
 
+            @media(min-width: $bg){
+                // move custom underline under to the left
+                margin: initial;
+            }
         }
         // custom underline color  
         &-transform{
