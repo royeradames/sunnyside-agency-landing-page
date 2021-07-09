@@ -22,14 +22,11 @@ import desktopSugar from "./images/desktop/image-gallery-sugarcubes.jpg";
 
 // SVGs
 import { ReactComponent as LogoSvg } from "./images/logo.svg";
+import { ReactComponent as Menu } from "./images/icon-hamburger.svg";
 import { ReactComponent as FacebookIcon } from "./images/icon-facebook.svg";
 import { ReactComponent as Instagram } from "./images/icon-instagram.svg";
 import { ReactComponent as Twitter } from "./images/icon-twitter.svg";
 import { ReactComponent as Pinterest } from "./images/icon-pinterest.svg";
-
-// font awesome
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
   const [isMenuOpen, setIsMenuOpenCount] = useState(false);
@@ -49,8 +46,7 @@ function App() {
           <a href="#root">
             <LogoSvg className="header__logo" />
           </a>
-          <FontAwesomeIcon
-            icon={faBars}
+          <Menu
             className="header__menu-icon"
             onClick={() => openMenu(isMenuOpen, setIsMenuOpenCount)}
           />
