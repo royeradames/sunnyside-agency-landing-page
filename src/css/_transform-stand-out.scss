@@ -86,6 +86,11 @@ $bg: 1050px;
 // space out into 4x4 grid
 .transform{
 
+    grid-template:
+        "transform-img" 1fr
+        "transform-text" min-content
+        /1fr
+    ;
     @media(min-width: $bg){
         grid-template:
             "transform-text transform-img" 1fr
@@ -106,6 +111,11 @@ $bg: 1050px;
     }
 }
 .stand-out{
+    grid-template:
+        "stand-out-img" 1fr
+        "stand-out-text" min-content
+        /1fr
+    ;
     @media(min-width: $bg){
         grid-template:
             "stand-out-img stand-out-text" 1fr
