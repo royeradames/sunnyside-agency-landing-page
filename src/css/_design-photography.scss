@@ -1,16 +1,27 @@
+$bg: 1050px;
+
 // graphic and photography section
 .graphic-design-photography{
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 60rem;
-    width: 37.5rem;
+    width: 100%;
 
     display: grid;
     justify-items: center;
     align-items: end;
     
-
+    
+    &__layout{
+        @media(min-width: $bg){
+            display: grid;
+            grid-template:
+                "graphic-design photography" 1fr
+                / 1fr 1fr
+            ;
+        }
+    }
     &__text{
         height: 14.3rem;
         width: 32.7rem;
@@ -34,6 +45,9 @@
 .graphic-design{
     
     background-image: url("../images/mobile/image-graphic-design.jpg");
+    
+    grid-area: graphic-design;
+    
 
     &__title{
         color: var(--desaturated-cyan-700);
@@ -46,6 +60,8 @@
 .photography{
     background-image: url("../images/desktop/image-photography.jpg");
     background-position: center;
+
+    grid-area: photography;
 
     &__title{
         color: var(--blue-700);

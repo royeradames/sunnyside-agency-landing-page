@@ -114,32 +114,34 @@ function App() {
           </div>
         </article>
 
-        <article className="graphic-design-photography graphic-design ">
-          <div className="graphic-design-photography__text">
-            <h2 className="graphic-design-photography__title graphic-design__title">
-              Graphic Design
-            </h2>
-            <p className="graphic-design__message graphic-design-photography__message">
-              Great design makes you memorable. We deliver artwork that
-              underscores your brand message and captures potential clients’
-              attention.
-            </p>
-          </div>
-        </article>
-        <article className="graphic-design-photography photography">
-          <div className="graphic-design-photography__text">
-            <h2 className="graphic-design-photography__title photography__title">
-              Photography
-            </h2>
-            <p
-              className="graphic-design-photography__message
-            photography__message"
-            >
-              Increase your credibility by getting the most stunning,
-              high-quality photos that improve your business image.
-            </p>
-          </div>
-        </article>
+        <div className="graphic-design-photography__layout">
+          <article className="graphic-design-photography graphic-design ">
+            <div className="graphic-design-photography__text">
+              <h2 className="graphic-design-photography__title graphic-design__title">
+                Graphic Design
+              </h2>
+              <p className="graphic-design__message graphic-design-photography__message">
+                Great design makes you memorable. We deliver artwork that
+                underscores your brand message and captures potential clients’
+                attention.
+              </p>
+            </div>
+          </article>
+          <article className="graphic-design-photography photography">
+            <div className="graphic-design-photography__text">
+              <h2 className="graphic-design-photography__title photography__title">
+                Photography
+              </h2>
+              <p
+                className="graphic-design-photography__message
+              photography__message"
+              >
+                Increase your credibility by getting the most stunning,
+                high-quality photos that improve your business image.
+              </p>
+            </div>
+          </article>
+        </div>
 
         <article className="testimonials ">
           <h2 className="testimonials__title">CLIENT TESTIMONIALS</h2>
