@@ -18,6 +18,12 @@ $bg: 1050px;
         letter-spacing: -.023rem;
         color: var(--desaturated-blue-900);
         font-weight: 900;
+
+        @media(min-width: $bg){
+            // enlarge title
+            font-size: 4rem;
+            letter-spacing: -.029rem;
+        }
     }
     &__message{
         font-size: 3rem;
