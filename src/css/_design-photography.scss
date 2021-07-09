@@ -67,6 +67,11 @@ $bg: 1050px;
 
     grid-area: photography;
 
+    @media(min-width: $bg){
+        // insert larger image and show the center
+        background-image: url("../images/desktop/image-photography.jpg");
+    }
+
     &__title{
         color: var(--blue-700);
     }
