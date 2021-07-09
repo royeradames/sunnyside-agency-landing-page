@@ -11,7 +11,6 @@ import milk from "./images/mobile/image-gallery-milkbottles.jpg";
 import halfOrange from "./images/mobile/image-gallery-orange.jpg";
 import cone from "./images/mobile/image-gallery-cone.jpg";
 import sugar from "./images/mobile/image-gallery-sugar-cubes.jpg";
-import logo from "./images/logo.svg";
 import downArrow from "./images/icon-arrow-down.svg";
 import desktopEgg from "./images/desktop/image-transform.jpg";
 import desktopRedCup from "./images/desktop/image-stand-out.jpg";
