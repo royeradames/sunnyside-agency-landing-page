@@ -13,6 +13,12 @@ import cone from "./images/mobile/image-gallery-cone.jpg";
 import sugar from "./images/mobile/image-gallery-sugar-cubes.jpg";
 import logo from "./images/logo.svg";
 import downArrow from "./images/icon-arrow-down.svg";
+import desktopEgg from "./images/desktop/image-transform.jpg";
+import desktopRedCup from "./images/desktop/image-stand-out.jpg";
+import desktopMilk from "./images/desktop/image-gallery-milkbottles.jpg";
+import desktopHalfOrange from "./images/desktop/image-gallery-orange.jpg";
+import desktopCone from "./images/desktop/image-gallery-cone.jpg";
+import desktopSugar from "./images/desktop/image-gallery-sugarcubes.jpg";
 
 // font awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -26,6 +32,8 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
   const [isMenuOpen, setIsMenuOpenCount] = useState(false);
+
+  const bgSize = "1050w";
 
   const openMenu = (
     isMenuOpen: boolean,
@@ -71,6 +79,7 @@ function App() {
         <article className="transform-stand-out transform">
           <img
             src={egg}
+            srcSet={`${desktopEgg} ${bgSize}`}
             alt="White egg on yellow background"
             className="transform-stand-out__img transform__img"
           />
@@ -93,6 +102,7 @@ function App() {
         <article className="transform-stand-out stand-out">
           <img
             src={redCup}
+            srcSet={`${desktopRedCup} ${bgSize}`}
             alt="Red cup on orange background"
             className="transform-stand-out__img stand-out__img"
           />
@@ -192,10 +202,30 @@ function App() {
         </article>
 
         <article className="gallery">
-          <img src={milk} alt="Milk bottles" className="gallery__milk" />
-          <img src={halfOrange} alt="Orange" className="gallery__orange" />
-          <img src={cone} alt="Ice cream cone" className="gallery__cone" />
-          <img src={sugar} alt="Sugar cubes" className="gallery__sugar" />
+          <img
+            src={milk}
+            srcSet={`${desktopMilk} ${bgSize}`}
+            alt="Milk bottles"
+            className="gallery__milk"
+          />
+          <img
+            src={halfOrange}
+            srcSet={`${desktopHalfOrange} ${bgSize}`}
+            alt="Orange"
+            className="gallery__orange"
+          />
+          <img
+            src={cone}
+            srcSet={`${desktopCone} ${bgSize}`}
+            alt="Ice cream cone"
+            className="gallery__cone"
+          />
+          <img
+            src={sugar}
+            srcSet={`${desktopSugar} ${bgSize}`}
+            alt="Sugar cubes"
+            className="gallery__sugar"
+          />
         </article>
       </main>
 
