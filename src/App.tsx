@@ -29,12 +29,6 @@ import { ReactComponent as Pinterest } from "./images/icon-pinterest.svg";
 
 // font awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faTwitter,
-  faFacebookF,
-  faInstagram,
-  faPinterest,
-} from "@fortawesome/free-brands-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
