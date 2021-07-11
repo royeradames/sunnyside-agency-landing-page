@@ -77,7 +77,7 @@ import { ReactComponent as LogoSvg } from "./images/logo.svg";
 
 ### Useful resources
 
-- [React srcset for responsive images](https://crystallize.com/blog/react-srcset-for-responsive-images) - Reminder on how to do responsive images with React.
+- [React srcSet for responsive images](https://crystallize.com/blog/react-srcset-for-responsive-images) - Reminder on how to do responsive images with React.
 - [HTMLImageElement.srcset](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/srcset) - An explanation on how the srcSet works.
 
 ## Author
