@@ -51,7 +51,6 @@ Users should be able to:
 - [React](https://reactjs.org/) - JS library
 - [Sass](sass-lang.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
